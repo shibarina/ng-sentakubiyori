@@ -4,6 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## 要件
 
+```
 （機能要件）
 ・Webページにアクセスしたら、今日が洗濯日和か否かを表示してくれる
 ・洗濯できるとしたら何時から干せばいいかをレコメンドしてくれる
@@ -17,6 +18,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ・Angular Materialを使用
 ・S3 + Cloud Frontで公開
 ・ソースコードはGithubにアップロード
+```
 
 ## Development server
 
