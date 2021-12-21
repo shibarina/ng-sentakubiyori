@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TopPageRoutingModule } from './top-page-routing.module';
 import { TopPageComponent } from './top-page.component';
+import { SubPageModule } from '../sub-page/sub-page.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { TopPageComponent } from './top-page.component';
   ],
   imports: [
     CommonModule,
-    TopPageRoutingModule
+    TopPageRoutingModule,
+    SubPageModule
   ]
 })
 export class TopPageModule { }
